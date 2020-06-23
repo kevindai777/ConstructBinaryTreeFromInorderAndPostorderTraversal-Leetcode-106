@@ -32,7 +32,7 @@ class Tree {
 
 
 //O(n) solution that recursively builds the left and right part of the root of the
-//binary tree via where the root is in the inorder array.
+//binary tree by finding where the root is indexed in the inorder array.
 function dfs(inorder, postorder) {
     if (!inorder || inorder.length < 1) {
         return null
